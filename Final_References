@@ -1,6 +1,20 @@
-<html><head><title>References</title></head>
-<body><body style="background-color=black;">
-<h1><u>References</h1></u>
+<html>
+<head>
+  <title>References</title>
+  <style>
+    body {
+      background-color: black;
+      font-family: Helvetica, sans-serif;
+      color: white;
+    }
+    h1, p, span {
+      color: white;
+    }
+    span {
+      text-indent: 40px;
+    }
+  </style>
+</head>
 <p>
 <i>About Us: SirsiDynix.</i> (n.d.). SirsiDynix. Retrieved December 2, 2024, from 
 <br><span>https://www.sirsidynix.com/about-us/.</span>
@@ -25,15 +39,7 @@ Boyle, T. (2015, March 27). D.C. Public Library Pitches In To Create First-Ever 
 Cauley, Kate. “Banned Books behind Bars: Prototyping a Data Repository to Combat Arbitrary 
 <br><span>Censorship Practices in U.S. Prisons.” <i>Humanities</i>, vol. 9, no. 4, 2020, p. 131. MDPI, https://doi.org/10.3390/h9040131. Accessed 28 November 2024.</span>
 </p>
-<style>
-body {
-  font-family: Helvetica, sans-serif;
-}
-h1, p, span {
-  color: white;
-}
-span {
-  text-indent: 40px;
-}
-</style>
+<p>
+Davis, Lois M. “Higher Education Programs in Prison.” RAND, <i>RAND</i> Corporation, 28 August 2019, https://www.rand.org/pubs/perspectives/PE342.html.
+
 </body></html>

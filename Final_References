@@ -1,19 +1,20 @@
 <html>
 <head>
-  <title>References</title>
-  <style>
-    body {
-      background-color: black;
-      font-family: Helvetica, sans-serif;
-      color: white;
+<title>References</title>
+<body>
+<style>
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+h1, p, span {
+    color: white;
+}
+span {
+text-indent: 40px;
     }
-    h1, p, span {
-      color: white;
-    }
-    span {
-      text-indent: 40px;
-    }
-  </style>
+</style>
 </head>
 <p>
 <i>About Us: SirsiDynix.</i> (n.d.). SirsiDynix. Retrieved December 2, 2024, from 
@@ -40,6 +41,10 @@ Cauley, Kate. “Banned Books behind Bars: Prototyping a Data Repository to Comb
 <br><span>Censorship Practices in U.S. Prisons.” <i>Humanities</i>, vol. 9, no. 4, 2020, p. 131. MDPI, https://doi.org/10.3390/h9040131. Accessed 28 November 2024.</span>
 </p>
 <p>
-Davis, Lois M. “Higher Education Programs in Prison.” RAND, <i>RAND</i> Corporation, 28 August 2019, https://www.rand.org/pubs/perspectives/PE342.html.
-
+Davis, Lois M. “Higher Education Programs in Prison.” RAND, <i>RAND</i> Corporation, <br><span>28 August 2019, https://www.rand.org/pubs/perspectives/PE342.html.</span>
+</p>
+<p>
+DC Department of Corrections. <i>Facts and Figures January 2024.</i> January 2024. <i>DC.gov</i>, 
+<br><span>https://doc.dc.gov/sites/default/files/dc/sites/doc/publication/attachments/DC%20Department%20of%20Corrections%20Facts%20and%20Figures%20January%202024_0.pdf.</span>
+</p>
 </body></html>

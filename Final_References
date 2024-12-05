@@ -1,7 +1,6 @@
 <html>
 <head>
-<title>References</title></head>
-<body>
+<title>References</title>
 <style>
 body {
     background-color: black;
@@ -14,7 +13,7 @@ h1, p, span {
 span {
 text-indent: 40px;
     }
-</style>
+</style></head><body>
 <p>
 <i>About Us: SirsiDynix.</i> (n.d.). SirsiDynix. Retrieved December 2, 2024, from 
 <br><span>https://www.sirsidynix.com/about-us/.</span>

@@ -1,82 +1,44 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>References</title>
-<style>
-body {
-    background-color: black;
-    font-family: Helvetica, sans-serif;
-    color: white;
-}
-h1, p, span {
-    color: white;
-}
-span {
-text-indent: 40px;
-    }
-</style></head><body>
-<h1><u>Works Cited</h1></u>
-<p>
-<i>About Us: SirsiDynix.</i> (n.d.). SirsiDynix. Retrieved December 2, 2024, from 
-<br><span>https://www.sirsidynix.com/about-us/.</span>
-</p>
-<p>
-American Library Association. “Prisoners' Right to <br><span>Read: An Interpretation of the Library Bill of Rights.” <i>American Library Association</i>, 
-American Library Association, 29 January 2019, https://www.ala.org/advocacy/intfreedom/librarybill/interpretations/prisonersrightoread. Accessed 28 November 2024.</span>
-</p>
-<p>
-Books Behind Bars: A Discussion on the Need for Library Services at the DC Jail. (2014, April 
-<br><span>21). District of Columbia Library Association. https://dcla.org/event-872247.</span>
-</p>
-<p>
-“Books to Prisoners: Mission.” Books to Prisoners, https://www.bookstoprisoners.net/. Accessed 
-<br><span>1 December 2024.</span>
-</p>
-<p>
-Boyle, T. (2015, March 27). D.C. Public Library Pitches In To Create First-Ever Library For 
-<br><span>Inmates At D.C. Jail. WAMU. https://wamu.org/story/15/03/27/washington_dc_opens_first_ever_library_for_inmates_in_the_dc_jail/.</span>
-</p>
-<p>
-Cauley, Kate. “Banned Books behind Bars: Prototyping a Data Repository to Combat Arbitrary 
-<br><span>Censorship Practices in U.S. Prisons.” <i>Humanities</i>, vol. 9, no. 4, 2020, p. 131. MDPI, https://doi.org/10.3390/h9040131. Accessed 28 November 2024.</span>
-</p>
-<p>
-Davis, Lois M. “Higher Education Programs in Prison.” RAND, <i>RAND</i> Corporation, <br><span>28 August 2019, https://www.rand.org/pubs/perspectives/PE342.html.</span>
-</p>
-<p>
-DC Department of Corrections. <i>Facts and Figures January 2024.</i> January 2024. <i>DC.gov</i>, 
-<br><span>https://doc.dc.gov/sites/default/files/dc/sites/doc/publication/attachments/DC%20Department%20of%20Corrections%20Facts%20and%20Figures%20January%202024_0.pdf.</span>
-</p>
-<p>
-Ezeifeidi, Erica. “Hear First Hand from Incarcerated People Why Reading in Prisons Is So 
-<br>Important.” <i>Book Riot</i>, Riot New Media Group, 24 September 2024, https://bookriot.com/hear-first-hand-from-incarcerated-people-why-reading-in-prisons-is-so-important/#:~:text=Recidivism%20goes%20down%20when%20individuals,facility%3B%20overcharging%20for%20a%20limited.</span>
-</p>
-<p>
-Gathright, J. (2024, June 6). Replacing D.C. jail will take at least 10 years, plans show. <i>The 
-<br><span>Washington Post</i>. https://www.proquest.com/newspapers/replacing-d-c-jail-will-take-at-least-10-years/docview/3064765211/se-2?accountid=9940.</span>
-</p>
-<p>
-Glazer, Gwen. “Can't Get Enough Urban Fiction? Try These 20 Books.” <i>The New York Public 
-<br><span>Library</i>, 11 October 2019, https://www.nypl.org/blog/2019/urban-fiction-readalikes. Accessed 1 December 2024.</span>
-</p>
-<p>
-Henrichson, Christian, et al. <i>The Price of Jails: Measuring the Taxpayer Cost of Local 
-<br><span>Incarceration</i>. Vera Institute of Justice, May 2015, https://vera-institute.files.svdcdn.com/production/downloads/publications/price-of-jails.pdf.</span>
-</p>
-<p>
-Janezich, L. (2017, October 24). <i>Here’s a Hill East Branch of DC Public Library You Don’t Know 
-<br><span>About</i>. Capitol Hill Corner. https://capitolhillcorner.org/2017/10/24/heres-a-hill-east-branch-of-dc-public-library-you-dont-know-about/.</span>
-</p>
-<p>
-Jenkins, M. (2014, May 1). D.C. jail plans to add book carts by fall. <i>The Washington Post</i>. 
-<br><span>https://www.proquest.com/newspapers/d-c-jail-plans-add-book-carts-fall/docview/1520081638/se-2</span>
-</p>
-<p>
-Marquis, Moira, and Juliana Luna. “Reading Between the Bars.” <i>PEN America</i>, PEN America, 
-<br><span>25 October 2023, https://pen.org/report/reading-between-the-bars/.</span>
-</p>
-<p>
-Vasiljevic, M., & Viki, G. T. (2013). “Dehumanization, moral disengagement, and public
-<br><span>attitudes to crime and punishment.” In P. G. Bain, J. Vaes, & J.-P. Leyens (Eds.),
-<i>Humanness and dehumanization</i> (1st ed., pp. 129-146). Hove: Psychology Press, https://doi.org/10.4324/9780203110539 
-</p>
-</body></html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Helvetica, sans-serif;
+            color: white;
+        }
+        h1 {
+            color: white;
+            text-decoration: underline;
+        }
+        p {
+            color: white;
+            text-indent: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Works Cited</h1>
+    <p><i>About Us: SirsiDynix.</i> (n.d.). SirsiDynix. Retrieved December 2, 2024, from
+    https://www.sirsidynix.com/about-us/.</p>
+    <p>American Library Association. “Prisoners' Right to Read: An Interpretation of the Library Bill of Rights.” <i>American Library Association</i>,
+    American Library Association, 29 January 2019,
+    https://www.ala.org/advocacy/intfreedom/librarybill/interpretations/prisonersrightoread. Accessed 28 November 2024.</p>
+    <p>Books Behind Bars: A Discussion on the Need for Library Services at the DC Jail. (2014, April 21).
+    District of Columbia Library Association. https://dcla.org/event-872247.</p>
+    <p>“Books to Prisoners: Mission.” Books to Prisoners,
+    https://www.bookstoprisoners.net/. Accessed 1 December 2024.</p>
+    <p>Boyle, T. (2015, March 27). D.C. Public Library Pitches In To Create First-Ever Library For Inmates At D.C. Jail.
+    <i>WAMU</i>. https://wamu.org/story/15/03/27/washington_dc_opens_first_ever_library_for_inmates_in_the_dc_jail/.</p>
+    <p>Cauley, Kate. “Banned Books behind Bars: Prototyping a Data Repository to Combat Arbitrary Censorship Practices in U.S. Prisons.”
+    <i>Humanities</i>, vol. 9, no. 4, 2020, p. 131. MDPI, https://doi.org/10.3390/h9040131. Accessed 28 November 2024.</p>
+    <p>Davis, Lois M. “Higher Education Programs in Prison.” <i>RAND</i>, RAND Corporation, 28 August 2019,
+    https://www.rand.org/pubs/perspectives/PE342.html.</p>
+    <p>DC Department of Corrections. <i>Facts and Figures January 2024.</i> January 2024. <i>DC.gov</i>,
+    https://doc.dc.gov/sites/default/files/dc/sites/doc/publication/attachments/DC%20Department%20of%20Corrections%20Facts%20and%20Figures%20January%202024_0.pdf.</p>
+</body>
+</html>

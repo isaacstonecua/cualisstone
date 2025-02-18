@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head><body>
+	<title>LSC650 HTML and CSS Exercise</title>
+<table>
+<tr><th><center><a href=“http://www.catholic.edu”><img src=“CUA_Logo.jpg”></a>
+<br><h4>This is a CUA Logo</th>
+<th>About This Webpage</h4></center></th>
+<tbody><tr><td><b>About the course</b></td>
+<td> This course is designed for students interested in developing skills for web site and web page design. It will cover search engine architecture, evaluation of information resources and applications of information architecture to web site design. Through exercises, discussions, lectures, projects and presentations students will learn the principles of information architecture and user-centered web design. In addition, students will have hands-on practices with web site and web page design with HTML, CSS and JavaScript. They will use HTML editors and graphic tools.</td></tr>
+<tr><td><b>About this exercise</b></td>
+<td>Create lists, tables, images, links with HTML5, and Add styles with CSS</td></tr> 
+
+
+<h1>About LIS</h1>
+
+<!-- [LISTS] create a Table of Contents as a definition list -->
+<!-- [LISTS] create a nested list in Mission with italized items "Who we serve" and "how we achieve our mission" listed with lower-roman bulltes. -->
+<!-- [LINKS] Let the Table of Contents have inner links to Vision, Mission, and Objectives. -->
+<p>
+<div style="font-weight:bold; text-decoration:underline;">Table of Contents</div>
+<dl><dt>Mission</dt>
+<dd>How we achieve our mission
+<dt>History of CUA LIS program</dt>
+<dd>Courses of Study</dl>
+</p>
+<hr>
+
+<h2>Mission of CUA LIS</h2>
+<h3>Mission</h3>
+<p>Through teaching, research, and service, the Department contributes to the creation and management of knowledge and information, preserves heritage and scholarship, and demonstrates our commitment to the common good. The Department of Information Sciences produces information professionals imbued with the values of the library and information science profession, and the Department’s values of collaboration, community, innovation, and excellence. In accord with the mission of The Catholic University of America, the Department advances the dialogue between faith and reason and cultivates a commitment to service in the field of library and information science.</p>
+
+<h3>We Achieve Our Mission By</h3>
+<!-- [LISTS] make the unordered list with square bullets -->
+<ul>
+    <li>Educating highly competent, ethical librarians and other information professionals.</li>
+    <li>Exploring and integrating innovative technology to enrich teaching, foster scholarship and advance professional practice.</li>
+    <li>Strengthening the program by engaging in ongoing dialogue to anticipate the changing needs of individuals, the community and global society.</li>
+    <li>Advancing the frontiers of knowledge and practice in library and information science.</li>
+    <li>Serving the field, the community, the region and the world.</li>
+</ul>
+<!-- [LINKS] add a link back to ToC -->
+<a href=“#top”>back to top</a>
+
+<h3>History of CUA LIS program</h3>
+<p>On July 2, 1911, the first Library classes were taught by members of the University Library Staff and librarians from the District of Columbia Public Library so that by 1930, a complete four-summer training program was offered and a certificate awarded. Elizabeth Stone, former department chair, later became American Library Association president and designed the America’s Libraries Postage Stamp.</p>
+<p>A Century of Knowledge, Service, and Discovery: Library Education 1911-2011 reflected on the profession and its accomplishments across the century and laid the groundwork for its direction in the next 100 years.</p>
+<!-- [LINKS] add a link back to ToC -->
+<a href=“#top”>back to top</a>
+
+<h3>Courses of Study</h3>
+<p>The program offered by the Department of Information Sciences is structured around a foundation of four core courses. Students do not formally declare majors; they may choose to concentrate their studies in a pre-designed course of study or work with their faculty advisor to develop their own course of study.</p>
+<p>The School Library Media Certification has very specific requirements which must be fulfilled by the student through their coursework in order to receive the state-issued certificate needed to work as a School Library Media Specialist in public school libraries.</p>
+<!-- [LISTS] make the unordered list with circle bullets -->
+<ul>
+    <li><i>Community Services Librarianship:</i> Within the Community Services course of study, students can concentrate on any of the following information environments. For ease of reference, specialized recommended courses are listed for each of the three types of information environment. In addition, students interested in community archives should consult the Cultural Heritage Information Management Course of Study for additional relevant courses
+
+		<!-- [LISTS] make these three items another list that is embeded in this list -->
+		Public Libraries
+		Academic Libraries
+		Specialized Libraries
+	</li>
+    <li><i>Cultural Heritage Information Management:</i> The Cultural Heritage Information Management (CHIM) course of study is designed to prepare students for careers in managing primary source materials in libraries' special collections, archives, and museums (AKA memory institutions). The CHIM course of study supports traditional and emerging practices of managing unique hidden collections and born-digital resources for preservation and greater access to the collections in today's digital information environment.</li>
+    <li><i>Data Science:</i> This course of study prepares students for careers in all these domains as data analysts, data engineers, and data journalists. In addition, students could consider taking courses from this course of study to combine with other courses of study such as Cultural Heritage Information Management and Information Organization to become data managers, data librarians, data archivists, data curators and research data librarians.</li>
+    <li><i>Digital Libraries:</i> The Digital Libraries course of study is designed to guide students in developing specialized knowledge and skills in information technologies, information organization, and end-user services that will enable them to lead digital collection/library development and management at academic/research institutions, cultural heritage institutions, special collections/archives, and other information centers.</li>
+    <li><i>Generalist:</i> The Generalist Course of Study guides those students in the selection of a balanced program in the six competency areas defined by the faculty: Professional Identity, Management, Resources, Services, Information Organization, and Technology (see <a href="https://lis.catholic.edu/about-us/dlis---competencies-revd-october-2022.pdf">The Professional Competencies for Graduates of the Masters in Library Science Degree Program</a>).</li>
+    <li><i>Information Architecture:</i> Information architecture (IA) draws on many fields, including library science, computer science, social informatics, information design, visual design, and engineering psychology (Rosenfeld, Morville, & Arango, 2015). The IA Course of Study reflects this diversity. The Department of  and Information Science offers a variety of courses that focus on information architecture.</li>
+    <li><i>Law Librarianship:</i>  Law librarianship program combines an emphasis on legal information sources and services and law library management with a general preparation for professional librarianship.</li>
+    <li><i>Organization of Information:</i> This course of study is designed to guide students to develop specialized knowledge and skills related to the organization of information objects in all formats and obtain hands-on practices in metadata standards, database management, and the management of physical and digital information resources.</li>
+    <li><i>School Library Media:</i> SLM program resides in the Library and Information Science (LIS) program, accredited by the American Library Association (ALA). The program is also state approved by the District of Columbia Office of the State Superintendent of Education (OSSE). Those who have completed the SLM program are eligible for a license/endorsement in DC and — through a reciprocity agreement — in other states and jurisdictions including Virginia and Maryland.</li>
+</ul>
+<!-- [LINKS] add a link back to ToC -->
+<a href=“#top”>back to top</a>
+
+<!-- [LINKS] make the hyperlink open in a new window -->
+<p>The LIS Faculty have adopted <a href="https://lis.catholic.edu/about-us/dlis---competencies-revd-october-2022.pdf" target=“_blank”>a statement of Professional Competencies for Graduates of the Master in Library Science Degree Program</a>.</p>
+
+</body>
+
+</html>

@@ -50,8 +50,13 @@ Follow the instruction in the style tag to add dynamic features with CSS
 /* [Exercise] ** include a fixed position box -- for id "notice" div ** */	
 	div#notice {position: fixed; top: 10px;}
 
-	/* [Exercise] ** include a:hover effect to the left-side menu ** */
-div#leftcolumn a:hover {color:red;}
+/* [Exercise] ** include a:hover effect to the left-side menu ** */
+	div#leftcolumn ul {display:block; margin:0; padding:0; list-style:none;}
+	div#leftcolumn a {display:block; width:10em;}
+	div#leftcolumn a:hover ul{position:absolute; display:block; background: #FFFFCC; border: solid; width: 10em;}
+	/*div#leftcolumn li ul li {float:none; width: 8em;}
+
+	
 	/* [Exercise] ** include in-document links to the left-side menu ** */
 div#	
 	// Adding resources to the webpage

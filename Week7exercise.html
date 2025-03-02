@@ -53,7 +53,15 @@ Follow the instruction in the style tag to add dynamic features with CSS
 	
 	// Adding resources to the webpage
 	/* [Exercise] ** include one self-hosting web font and one web service font ** */
-	h2 {font-family: Dosis-VariableFont_wght.ttf;}
+@font-face {
+    font-family: 'Dosis'; /* Custom name for your font */
+    src: url('fonts/Dosis-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}	
+h2 {
+    font-family: 'Dosis', sans-serif; /* Use the name defined in @font-face */
+}	
 	/* [Exercise] ** include one video (either by uplodaing your own recorded video or including an online video) ** */
 	
 </style>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LSC350/650 CSS Exercise</title>
+
+<!-- 
+
+Follow the instruction in the style tag to add dynamic features with CSS 
+
+[Example]: some examples of use of CSS
+[Exercise]: instruction for this week's class exercise
+
+-->
+
+<style type="text/css">
+	body {font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+	
+	/* [Example] drop-down menu */
+	div#topmenu {float: right; border: 1px solid #666666; background-color: #FFFFFF; margin: 0px 0px 5px 0px; padding: 10px; width: 900px; position: relative;}
+	div#topmenu ul {display:block; margin:0; padding:0; list-style:none;}
+	div#topmenu a {display:block; width:10em;}
+	div#topmenu li {float:right; width:8em;}
+	div#topmenu li ul {display:none;}
+	div#topmenu li:hover ul{position:absolute; display:block; background: #FFFFCC; border: solid; width: 10em;}
+	div#topmenu li ul li {float:none; width: 8em;}		
+	
+	/* [Example] layout and float box */
+	/* make sure you under stand how this part works in using CSS for layout */
+	p#title {float: right; font-family: Tahoma, Geneva, sans-serif; font-size: 24px; color:#FFFFFF;}
+	div#wrapper {margin: 0 auto; width: 922px; border: none;}
+	div#header {width: 900px; float: left; padding: 10px; border: 1px solid #ccc; height: 100px; margin: 10px 0px 5px 0px; background: #006; }
+	div#leftcolumn {border: 1px solid #ccc; background: #E7DBD5; margin: 0px 5px 5px 0px; padding: 10px; width: 195px; float: left;}
+	div#rightcolumn {float: right; border: 1px solid #ccc; background: #F2F2E6; margin: 0px 0px 5px 0px; padding: 10px; width: 678px; position: relative;}	
+	
+	/* [Example] rollover menu */
+	div#leftcolumn a {display: block; text-align: center; font: bold 1em sans-serif; padding: 5px 10px; margin: 0 0 1px; border-width: 0; text-decoration: none; color: #FFFFFF; background: #006; }
+	
+	// Using CSS for webpage layout
+	/* [Exercise] ** From the examples above, identify where the title of the page (LSC350/650 Information Architecture and Web Design) is presented  in CSS and change the style with another color.  */
+	div#topmenu {float: right; border: 1px solid #666666; background-color: #FFFFFF; margin: 0px 0px 5px 0px; padding: 10px; width: 900px; position: relative;}	
+/* [Exercise] ** include a fixed position box -- for id "notice" div ** */	
+div#notice {position: fixed; top: 10px;}
+	/* [Exercise] ** include a:hover effect to the left-side menu ** */
+div#leftcolumn {a: hover;}
+	/* [Exercise] ** include in-document links to the left-side menu ** */
+div#	
+	// Adding resources to the webpage
+	/* [Exercise] ** include one self-hosting web font and one web service font ** */
+	/* [Exercise] ** include one video (either by uplodaing your own recorded video or including an online video) ** */
+	
+</style>
+<script>function lti_launch( vars, target ) {
+						var query = '';
+						var new_tab = false;
+
+						for(var key in vars) {
+							if(query.length == 0) {
+								query += '?' + key + '=' + encodeURIComponent(vars[key]);
+							}
+							else {
+								query += '&' + key + '=' + encodeURIComponent(vars[key]);
+							}
+						}
+
+						var url = '/d2l/customization/pearsonlti/6606/Launch' + query;(target == '_blank') ? window.open( url, '_blank' ) : location.replace( url );}</script><script src="https://s.brightspace.com/lib/bsi/2025.2.233/unbundled/embeds.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', function() {
+					window.D2L.EmbedRenderer.renderEmbeds(document.body);
+				});</script><script src="https://s.brightspace.com/lib/bsi/2025.2.233/unbundled/mathjax.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', function() {
+						if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
+							document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
+								elm.setAttribute('style', 'display: block; height: 0.5rem;');
+							});
+
+							window.D2L.MathJax.loadMathJax({
+								outputScale: 1.5,
+								renderLatex: true,
+								enableMML3Support: false
+							});
+						}
+					});</script><script src="https://s.brightspace.com/lib/bsi/2025.2.233/unbundled/prism.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', function() {
+					document.querySelectorAll('.d2l-code').forEach(code => {
+						window.D2L.Prism.formatCodeElement(code);
+					});
+				});</script><script src="https://s.brightspace.com/lib/bsi/2025.2.233/unbundled/creator.js" type="module"></script><script>document.addEventListener('DOMContentLoaded', async () => {
+					const activities = [];
+					const practices = [];
+					const allPractices = document.querySelectorAll('.d2l-practice');
+					const elements = document.querySelectorAll('.d2l-element');
+					let layouts = [...document.querySelectorAll('.d2l-cplus-layout')];
+					const tables = document.querySelectorAll('table');
+					const contentStylerStyleLinks = document.querySelectorAll('head > link[href="https://templates.lcs.brightspace.com/lib/assets/css/styles.min.css"]');
+					const contentStylerOverides = document.querySelectorAll('head > link[href^="/d2l/le/contentstyler/"][data-override="override"]');
+
+					layouts = layouts.filter((layout) => layout.closest('.d2l-element.mceNonEditable') === null);
+
+					for (const practice of allPractices) {
+						const activityContainer = practice.hasAttribute('data-d2l-activity-href');
+						if (activityContainer) {
+							activities.push(practice);
+						}
+						else {
+							practices.push(practice);
+						}
+					}
+
+					if (layouts.length > 0) {
+						window.D2L.Creator.convertLayouts(layouts);
+					}
+					if (elements.length > 0) {
+						window.D2L.Creator.convertElements(elements, 6606, '/content/', 'True');
+					}
+					if (activities.length > 0) {
+						window.D2L.Creator.convertPracticeActivities(activities, 6606, '/content/');
+					}
+					if (practices.length > 0) {
+						window.D2L.Creator.convertPractices(practices, 6606, '/content/');
+					}
+					if (contentStylerStyleLinks.length > 0 && contentStylerOverides.length > 0 && tables.length > 0) {
+						window.D2L.Creator.wrapTables(tables);
+					}
+				});</script><script>document.addEventListener('DOMContentLoaded', function() {
+						if (document.documentElement.hasAttribute('lang')) return;
+						document.documentElement.setAttribute('lang', 'en-us'); 						
+					});</script><script>document.addEventListener('DOMContentLoaded', function() {
+						if (document.head.querySelector('title')) return;
+						var handleAppendTitle = function(evt) {
+							if (!evt || !evt.data) return;
+
+							try {
+								var data = JSON.parse(evt.data);
+								if (data.handler !== 'd2l.iframe.requestPageTitle' || !data.pageTitle) return;
+
+								window.removeEventListener('message', handleAppendTitle, false);
+
+								var titleElm = document.createElement('title');
+								titleElm.textContent = data.pageTitle;
+								document.head.appendChild(titleElm);
+							} catch (e) {}	
+						};
+
+						window.addEventListener('message', handleAppendTitle, false);
+						window.parent.postMessage(JSON.stringify({ handler: 'd2l.iframe.requestPageTitle' }), '*');
+					});</script><script>window.addEventListener('message', function(event) { 
+					if( !event.data ) {
+						return;
+					}
+
+					let params;
+					try {
+						params = JSON.parse( event.data );
+					}
+					catch {
+						return;
+					}
+					if( !params.subject || params.subject !== 'lti.frameResize' ) {
+						return;
+					}
+
+					const MAX_FRAME_HEIGHT = 10000;
+					if( !params.height || params.height < 1 || params.height > MAX_FRAME_HEIGHT ) {
+						console.warn( 'Invalid height value received, aborting' );
+						return;
+					}
+					const el = document.getElementsByTagName( 'iframe' );
+					for ( let i=0; i < el.length; i++ ) {
+						if( el[i].contentWindow === event.source ) {
+							el[i].style.height = params.height + 'px';
+
+							console.info( 'Setting iFrame height to ' + params.height );
+
+							if( el[i].getAttribute('lockwidth') !== 'true'){
+								el[i].style.width = '100%';
+								console.info( 'Setting iFrame width to 100%' );
+							}
+						}
+					}
+				});</script></head>
+
+<body>
+   <div id="wrapper">
+             <div id="topmenu">
+                <ul>
+                    <li><a href="https://lis.catholic.edu/info-for-current-students/index.html">Students</a>
+                        <ul>
+                        <li><a href="https://lis.catholic.edu/academics/courses/index.html">Courses</a></li>
+                        <li><a href="https://lis.catholic.edu/academics/mslis-program/index.html">Programs</a></li>
+                        </ul>
+                    </li>  
+                    <li><a href="https://lis.catholic.edu/about-us/index.html">Information</a>
+                        <ul>
+                        <li><a href="https://www.catholic.edu/index.html">CUA</a></li>
+                        <li><a href="https://lis.catholic.edu/index.html">LIS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.catholic.edu/admission/visit-campus.html">Visit</a>
+                        <ul>
+                        <li><a href="https://www.catholic.edu/map/index.html">Campus Map</a></li>
+                        <li><a href="https://lis.catholic.edu/about-us/contact-us/index.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>            	
+             </div>   
+        <div id="header">
+		 	 <p id="title"> LSC 350/650 Information Architecture and Web Design</p>	  
+		 </div>
+         <div id="notice">
+          	<p>This is a fixed box! <br/>You can use for Notice, Menu, etc.</p> 
+         </div>
+		 <div id="leftcolumn">
+            <a href="https://lis.catholic.edu/">Home</a>
+            <a href="">Mission</a>
+            <a href="">History</a>
+			<a href="">Courses of Study</a>
+		 </div>
+
+		<div id="rightcolumn">
+		<h2>Mission of LIS</h2>
+		<h3><a id="Mission">Mission</a></h3>
+		<p>Library and information Science (LIS) provides professional education and supports lifelong learning in the tradition of The Catholic University of America. We produce innovative leaders with professional values informed by the CUA core values of reason, faith and service; and the LIS values of collaboration, community, innovation and excellence. Our education is characterized by a strong grounding in the theory and practice of the LIS field, engagement with the rich cultural and human resources of the Washington metropolitan area, and the creative use of information technology. LIS is committed to applying the principles of library and information science towards the betterment of the individual, communities and society.</p>
+
+		<h3>We Achieve Our Mission By</h3>
+		<ul>
+			<li>Educating highly competent, ethical librarians and other information professionals.</li>
+			<li>Exploring and integrating innovative technology to enrich teaching, foster scholarship and advance professional practice.</li>
+			<li>Strengthening the school by engaging in ongoing dialog to anticipate the changing needs of individuals, the community and the global society.</li>
+			<li>Advancing the frontiers of knowledge and practice in LIS.</li>
+			<li>Serving the field, the community, the region and the world.</li>
+		</ul>
+		<a href="">back to top</a>
+		
+		<h3><a id="History">History of CUA LIS Program</a></h3>
+		<p>On July 2, 1911, the first Library classes were taught by members of the University Library Staff and librarians from the District of Columbia Public Library so that by 1930, a complete four-summer training program was offered and a certificate awarded. Elizabeth Stone, former department chair, later became American Library Association president and designed the America’s Libraries Postage Stamp.</p>
+		<p>A Century of Knowledge, Service, and Discovery: Library Education 1911-2011 reflected on the profession and its accomplishments across the century and laid the groundwork for its direction in the next 100 years.</p>
+		<a href="">back to top</a>
+
+		<h3><a id="CoS">Courses of Study</a></h3>
+		<p>The program offered by the Department of Library and Information Science is structured around a foundation of four core courses. Students do not formally declare majors; they may choose to concentrate their studies in a pre-designed course of study or work with their faculty advisor to develop their own course of study.</p>
+		<p>The School Library Media Certification has very specific requirements which must be fulfilled by the student through their coursework in order to receive the state-issued certificate needed to work as a School Library Media Specialist in public school libraries.</p>
+
+		<ul style="list-style-type:circle;">
+			<li><i>Community Services Librarianship:</i> The Community Services Librarianship course of study prepares students for this type of outreach and engagement with members of a community or organization. Students will gain knowledge of how to understand the community’s life and culture, identify the goals and needs of its members, and work alongside them to improve their situation and their outcomes. Within the Community Services specialization, students can concentrate on any of the following by selecting different courses, 
+				<ul>
+					<li>Public Libraries</li>
+					<li>Academic Libraries</li>
+					<li>Specialized Libraries</li>
+				</ul>
+			</li>
+			<li><i>Cultural Heritage Information Management:</i> The Cultural Heritage Information Management (CHIM) course of study is designed to prepare students for careers in managing primary source materials in libraries' special collections, archives, and museums (AKA memory institutions). The CHIM course of study supports traditional and emerging practices of managing unique hidden collections and born-digital resources for preservation and greater access to the collections in today's digital information environment.</li>
+			<li><i>Data Science:</i> This course of study prepares students for careers in all these domains as data analysts, data engineers, and data journalists. In addition, students could consider taking courses from this course of study to combine with other courses of study such as Cultural Heritage Information Management and Information Organization to become data managers, data librarians, data archivists, and data curators.</li>
+			<li><i>Digital Libraries:</i> The Digital Libraries course of study is designed to guide students in developing specialized knowledge and skills in information technologies, information organization, and end-user services that will enable them to lead digital libraries at academic/research institutions, cultural heritage institutions, special collections/archives, and other information centers.</li>
+			<li><i>Generalist:</i> The Generalist Course of Study guides those students in the selection of a balanced program in the six competency areas defined by the faculty: Professional Identity, Management, Resources, Services, Information Organization, and Technology (see <a href="https://lis.catholic.edu/_media/dlis-competencies-rev-d-january-2019.pdf" target="_blank">The Professional Competencies for Graduates of the Masters in Library Science Degree Program</a>).</li>
+			<li><i>Information Analysis:</i> The Information Analysis course of study is designed to prepare information professionals to fulfill vital roles as analysts and members of analysis cells, or in more traditional library operations.</li>
+			<li><i>Information Architecture:</i> Information architecture (IA) draws on many fields, including library science, computer science, social informatics, information design, visual design, and engineering psychology. The Information Architecture course of study reflects this diversity. The Department of Library and Information Science offers a variety of courses that focus on information architecture.</li>
+			<li><i>Law Librarianship:</i> Law Librarianship program combines an emphasis on legal information sources and services and law library management with a general preparation for professional librarianship.</li>
+			<li><i>Organization of Information:</i> This course of study is designed to guide students in developing specialized knowledge and skills related to the organization of information objects such as metadata standards, database management, and the management of physical and digital information resources. </li>
+			<li><i>School Library Media:</i> The school library media (SLM) program is selected by students who wish to work with young people in school libraries of public and private K-12 institutions. Catholic University's teacher education program is accredited by the Council for the Accreditation of Educator Preparation (CAEP), and SLM program is recognized by the American Library Association (ALA) and state approved by the District of Columbia Office of the State Superintendent of Education (OSSE). Those who have completed the SLM program are eligible for a license/endorsement in DC and — through a reciprocity agreement — in 44 other states and jurisdictions including Virginia and Maryland.</li>
+		</ul>
+		<a href="">back to top</a>
+
+		<p>The LIS Faculty have adopted <a href="https://lis.catholic.edu/_media/dlis-competencies-rev-d-january-2019.pdf" target="_blank">a statement of Professional Competencies for Graduates of the Master in Library Science Degree Program</a>.</p>
+		</div>
+   </div>
+
+</body>
+</html>
